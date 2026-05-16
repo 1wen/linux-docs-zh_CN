@@ -1,9 +1,9 @@
 # Linux 内核中文文档镜像
 
-这是一个独立于内核源码树的中文翻译镜像，来源于：
+这是一个独立于内核源码树的中文翻译镜像，内容来源于 Linux 内核文档树：
 
-- 英文原文：`/Users/if/Documents/code/linux-6.12.63/Documentation`
-- 中文镜像根：`/Users/if/Documents/claude_workspace/1/linux-docs-zh_CN/Documentation/translations/zh_CN`
+- 英文原文目录：Linux 源码树中的 `Documentation/`
+- 中文镜像根目录：本仓库内的 `Documentation/translations/zh_CN/`
 
 ## 从哪里开始看
 
