@@ -1,0 +1,5 @@
+source_total=4433
+translated_existing=265
+missing=4168
+rst_total=3125
+txt_total=1308
