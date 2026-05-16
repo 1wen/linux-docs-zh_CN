@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.venv/
+venv/
+_build/
+Documentation/_build/
