@@ -32,3 +32,13 @@
 - 已导入 Linux 源码树中现有的 `zh_CN` 翻译
 - 已补第一批缺失的关键索引页：`trace`、`networking`、`RCU`、`dev-tools/kunit`
 - 其余文档仍按分阶段方式继续补全
+
+## 启用提交自检
+
+在新机器 clone 本仓库后，可在仓库根目录执行一次：
+
+```bash
+git config core.hooksPath .githooks
+```
+
+这样 Git 会直接使用仓库内的 `.githooks/pre-commit`，提交前自动拦截本机绝对路径和常见临时文件。
